@@ -1,0 +1,6 @@
+vhdl work "/home/tejainece/learnings/xilinx/Multiply16Booth4/FAdder.vhd"
+vhdl work "/home/tejainece/learnings/xilinx/Multiply16Booth4/HAdder.vhd"
+vhdl work "/home/tejainece/learnings/xilinx/Multiply16Booth4/Counter4_2.vhd"
+vhdl work "/home/tejainece/learnings/xilinx/Multiply16Booth4/BoothPartProdRed.vhd"
+vhdl work "/home/tejainece/learnings/xilinx/Multiply16Booth4/BoothPartProdGen.vhd"
+vhdl work "/home/tejainece/learnings/xilinx/Multiply16Booth4/Multiply16Booth4.vhd"

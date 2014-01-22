@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/tejainece/learnings/xilinx/Multiply16Booth4/Multiply16Booth4_tb_isim_beh.exe" -prj "/home/tejainece/learnings/xilinx/Multiply16Booth4/Multiply16Booth4_tb_beh.prj" "work.Multiply16Booth4_tb" 
