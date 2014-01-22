@@ -41,12 +41,6 @@ end BoothPartProdGen;
 architecture Behavioral of BoothPartProdGen is
 	constant ONE17: STD_LOGIC_VECTOR(16 downto 0) := "00000000000000001";
 begin
-
---product <= '0' & a when bin3 = "001" or bin3 = "010" else
---			  a & '0' when bin3 = "011" else
---			  std_logic_vector(unsigned(not('0' & a)) + unsigned(ONE17)) when bin3 = "101" or bin3 = "110" else
---			  std_logic_vector(unsigned(not(a & '0')) + unsigned(ONE17)) when bin3 = "100" else
---			  (others => '0');
 			  
 PROCESS(bin3, a)
 BEGIN

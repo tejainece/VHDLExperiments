@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/tejainece/learnings/xilinx/BoothPartProdRed/BoothPartProdRed_tb_isim_beh.exe" -prj "/home/tejainece/learnings/xilinx/BoothPartProdRed/BoothPartProdRed_tb_beh.prj" "work.BoothPartProdRed_tb" 
