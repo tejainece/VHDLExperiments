@@ -48,8 +48,7 @@ begin
 --			  std_logic_vector(unsigned(not(a & '0')) + unsigned(ONE17)) when bin3 = "100" else
 --			  (others => '0');
 			  
-PROCESS
-	
+PROCESS(bin3, a)
 BEGIN
 
 if bin3 = "001" or bin3 = "010" then

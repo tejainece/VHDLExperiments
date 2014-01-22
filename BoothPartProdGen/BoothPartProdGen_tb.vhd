@@ -85,6 +85,7 @@ BEGIN
 		wait for 10 ns;
 		bin3 <= "111";
 		wait for 10 ns;
+		wait;
   end process;
 
 END;
