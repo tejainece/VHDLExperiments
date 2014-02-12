@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/tejainece/learnings/xilinx/FloatingPointMul23/FloatingPointMul23_tb_isim_beh.exe" -prj "/home/tejainece/learnings/xilinx/FloatingPointMul23/FloatingPointMul23_tb_beh.prj" "work.FloatingPointMul23_tb" 

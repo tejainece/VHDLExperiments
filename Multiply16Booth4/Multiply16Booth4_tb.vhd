@@ -43,7 +43,7 @@ ARCHITECTURE behavior OF Multiply16Booth4_tb IS
     PORT(
          a : IN  std_logic_vector(15 downto 0);
          b : IN  std_logic_vector(15 downto 0);
-         o : OUT  std_logic_vector(15 downto 0)
+         o : OUT  std_logic_vector(31 downto 0)
         );
     END COMPONENT;
     
@@ -53,7 +53,7 @@ ARCHITECTURE behavior OF Multiply16Booth4_tb IS
    signal b : std_logic_vector(15 downto 0) := (others => '0');
 
  	--Outputs
-   signal o : std_logic_vector(15 downto 0);
+   signal o : std_logic_vector(31 downto 0);
  
 BEGIN
  
@@ -68,12 +68,11 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-		a <= "0110101010101010";
-		b <= "0000000000100000";
+		--a <= "0110101010101010";
+		--b <= "0000000000100000";
+		a <= "0100001001000000";
+		b <= "0101111111000000";
       wait for 100 ns;	
-
-      wait for 100 ns;
-
       -- insert stimulus here 
 
       wait;

@@ -21,8 +21,109 @@
 
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="GoldschmidtDivider.xise"/>
 
-  <files xmlns="http://www.xilinx.com/XMLSchema"/>
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="GoldschmidtDivider.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="GoldschmidtDivider.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="GoldschmidtDivider.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="GoldschmidtDivider.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="GoldschmidtDivider.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="GoldschmidtDivider.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="GoldschmidtDivider.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="GoldschmidtDivider.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="GoldschmidtDivider.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="GoldschmidtDivider.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="GoldschmidtDivider_envsettings.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="GoldschmidtDivider_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="GoldschmidtDivider_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="GoldschmidtDivider_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="GoldschmidtDivider_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="GoldschmidtDivider_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/GoldschmidtDivider_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/GoldschmidtDivider_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1390430057" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1390430057">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1390430057" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1545838363735225794" xil_pn:start_ts="1390430057">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1390430057" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4138319086439801413" xil_pn:start_ts="1390430057">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1390430057" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1390430057">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1390430057" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8164439616243420412" xil_pn:start_ts="1390430057">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1390430057" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1390430057">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1390430057" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8029704315334361777" xil_pn:start_ts="1390430057">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1390430089" xil_pn:in_ck="2834215799376594520" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="7492395525134362658" xil_pn:start_ts="1390430057">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="GoldschmidtDivider.lso"/>
+      <outfile xil_pn:name="GoldschmidtDivider.ngc"/>
+      <outfile xil_pn:name="GoldschmidtDivider.ngr"/>
+      <outfile xil_pn:name="GoldschmidtDivider.prj"/>
+      <outfile xil_pn:name="GoldschmidtDivider.stx"/>
+      <outfile xil_pn:name="GoldschmidtDivider.syr"/>
+      <outfile xil_pn:name="GoldschmidtDivider.xst"/>
+      <outfile xil_pn:name="GoldschmidtDivider_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1390430089" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="134725742998002097" xil_pn:start_ts="1390430089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1390430096" xil_pn:in_ck="-2664398704990474241" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-1511843818199072942" xil_pn:start_ts="1390430089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="GoldschmidtDivider.bld"/>
+      <outfile xil_pn:name="GoldschmidtDivider.ngd"/>
+      <outfile xil_pn:name="GoldschmidtDivider_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1390430099" xil_pn:in_ck="-2664398704990474240" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1390430096">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="GoldschmidtDivider_map.map"/>
+      <outfile xil_pn:name="GoldschmidtDivider_map.mrp"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1390429966" xil_pn:in_ck="-2664398704990474241" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="-5851588447749114226" xil_pn:start_ts="1390429964">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/synthesis/GoldschmidtDivider_synthesis.nlf"/>
+      <outfile xil_pn:name="netgen/synthesis/GoldschmidtDivider_synthesis.vhd"/>
+    </transform>
+  </transforms>
 
 </generated_project>

@@ -33,7 +33,7 @@ entity Multiply16Booth4 is
 	PORT (
 		a: IN STD_LOGIC_VECTOR(15 downto 0);
 		b: IN STD_LOGIC_VECTOR(15 downto 0);
-		o: OUT STD_LOGIC_VECTOR(31 downto 0));
+		o: OUT STD_LOGIC_VECTOR(15 downto 0));
 end Multiply16Booth4;
 
 architecture Behavioral of Multiply16Booth4 is
@@ -146,6 +146,6 @@ begin
 			result => oTmp
 	);
 	
-o <= oTmp(31 downto 0);
+o <= oTmp(29 downto 14);
 			
 end Behavioral;
